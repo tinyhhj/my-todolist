@@ -10,10 +10,13 @@
     "uuid": "^8.0.0"
   },
   "scripts": {
-    "debug": "ts-node-dev src/index.ts"
+    "debug": "ts-node-dev src/index.ts",
+    "build": "node src/compile.js",
+    "start": "NODE_ENV=production node dist/index.js"
   },
   "devDependencies": {
     "@tinyhhj/common": "^0.0.0",
+    "@types/uuid": "^7.0.3",
     "ts-node-dev": "^1.0.0-pre.44"
   },
   "resolutions": {
