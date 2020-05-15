@@ -6,7 +6,8 @@
   "private": true,
   "dependencies": {
     "graphql": "^15.0.0",
-    "graphql-yoga": "^1.18.3"
+    "graphql-yoga": "^1.18.3",
+    "uuid": "^8.0.0"
   },
   "scripts": {
     "debug": "ts-node-dev src/index.ts"

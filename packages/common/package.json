@@ -5,6 +5,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "graphql": "^15.0.0"
+    "graphql": "^15.0.0",
+    "uuid": "^8.0.0"
   }
 }

@@ -1,8 +1,14 @@
 type TodoItem {
-  id: String!
+  id: ID!
   name: String!
   done: Boolean!
 }
 type Query {
   getTodoList: [TodoItem]!
+}
+
+type Mutation {
+  addTodo(name: String!): TodoItem!
+  toggleTodo(id: ID!): TodoItem!
+  removeTodo(id: ID!): TodoItem!
 }

@@ -1,0 +1,11 @@
+.todo-item {
+  cursor: pointer;
+}
+.todo-item .remove {
+  color: red;
+  margin-left: 4px;
+}
+.todo-item.done .text {
+  color: rgba(0, 0, 0, 0.15);
+  text-decoration: line-through;
+}

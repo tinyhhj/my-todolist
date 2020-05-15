@@ -1,5 +1,5 @@
-//https://medium.com/@jsilvax/a-workflow-guide-for-lerna-with-yarn-workspaces-60f97481149d
 import { GraphQLServer } from "graphql-yoga";
+//https://medium.com/@jsilvax/a-workflow-guide-for-lerna-with-yarn-workspaces-60f97481149d
 // ... or using `require()`
 // const { GraphQLServer } = require('graphql-yoga')
 import resolvers from "./resolvers/resolver";
