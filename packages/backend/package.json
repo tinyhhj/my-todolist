@@ -12,7 +12,7 @@
   "scripts": {
     "debug": "ts-node-dev src/index.ts",
     "build": "node src/compile.js",
-    "start": "NODE_ENV=production node dist/index.js"
+    "start": "NODE_ENV=production pm2 start dist/index.js"
   },
   "devDependencies": {
     "@tinyhhj/common": "^0.0.0",

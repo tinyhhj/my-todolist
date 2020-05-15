@@ -10,7 +10,7 @@ const typeDefs = "src/schema/schema.graphql";
 
 const server = new GraphQLServer({ typeDefs, resolvers });
 server.express.use(express.static(__dirname + "/../../front/build"));
-server.express.get("/home", function (_, res) {
+server.express.get("/", function (_, res) {
   res.sendFile(path.join(__dirname, "../../front/build/index.html"));
 });
 server.start({ port: 4001, endpoint: "/graphql" }, () =>
